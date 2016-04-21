@@ -18,7 +18,7 @@ import styles from './util/styles.js';
 
 import Firebase from 'firebase';
 
-let app = new Firebase("https://rn-login.firebaseio.com/");
+let app = new Firebase("YOUR-FIREBASE-URL");
 
 class Account extends Component {
 
